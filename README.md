@@ -6,8 +6,11 @@
 ## Advantages of Transformers
 
 . High performance on NLU and NLG tasks.
+
 . A unified API for using all  pretrained models.
+
 . Train state-of-the-art models in 3 lines of code.
+
 . Seamlessly pick the right framework for training, evaluation and production.
 
 
@@ -27,9 +30,9 @@ The pipelines are a great and easy way to use models for inference. These pipeli
 
 
 
-### Transformers Library installation 
+## Transformers Library installation 
 
-## Installation With pip
+### Installation With pip
 
 This is tested on Python 3.6+, Flax 0.3.2+, PyTorch 1.3.1+ and TensorFlow 2.3+.
 
@@ -38,7 +41,7 @@ pip install transformers
 
 ```
 
-## With conda
+### Installation with conda
 
 Since Transformers version v4.0.0, we now have a conda channel: huggingface.
 
@@ -49,7 +52,7 @@ conda install -c huggingface transformers
 ```
 
 
-## Code snippet for hugging face - Transformers ( sentiment analysis ) 
+## Code snippet for Hugging face - Transformers ( sentiment analysis ) 
 
 ```
 from transformers import pipeline
