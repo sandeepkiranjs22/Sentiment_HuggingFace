@@ -34,7 +34,6 @@ The pipelines are a great and easy way to use models for inference. These pipeli
 
 ### Installation With pip
 
-This is tested on Python 3.6+, Flax 0.3.2+, PyTorch 1.3.1+ and TensorFlow 2.3+.
 
 ```
 pip install transformers
@@ -43,9 +42,6 @@ pip install transformers
 
 ### Installation with conda
 
-Since Transformers version v4.0.0, we now have a conda channel: huggingface.
-
-hugs Transformers can be installed using conda as follows:
 
 ```
 conda install -c huggingface transformers
